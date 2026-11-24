@@ -2,31 +2,49 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Abhra Chakraborty (Abhra71): indie developer, maker of Knightwise</title>
-<meta name="description" content="Abhra Chakraborty (Abhra71) is a teenage indie developer from India who builds free, open-source apps, including Knightwise, a personal chess coach for chess.com players on the Microsoft Store.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Abhra Chakraborty (Abhra71) · Indie developer</title>
+<meta name="description" content="Abhra Chakraborty (Abhra71) is a teenage indie developer from India who builds free, open-source apps, including Knightwise, a personal chess coach on the Microsoft Store.">
+<meta name="author" content="Abhra Chakraborty">
 <link rel="canonical" href="https://abhra71.github.io/">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Abhra Chakraborty (Abhra71): indie developer">
-<meta property="og:description" content="Teenage indie developer from India. Maker of Knightwise, a free chess coach for chess.com players.">
+<meta property="og:site_name" content="Abhra71">
+<meta property="og:title" content="Abhra Chakraborty (Abhra71) · Indie developer">
+<meta property="og:description" content="Free, open-source apps for problems I actually have. Maker of Knightwise, a chess coach on the Microsoft Store.">
 <meta property="og:url" content="https://abhra71.github.io/">
-<meta property="og:image" content="https://abhra71.github.io/ChessCoach/media/social-preview.png">
+<meta property="og:image" content="https://abhra71.github.io/media/og.jpg">
+<meta property="profile:username" content="Abhra71">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@Abhra71">
-<link rel="icon" href="media/knightwise.png">
+<meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1018" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="media/favicon.png">
 <link rel="me" href="https://github.com/Abhra71">
 <link rel="me" href="https://x.com/Abhra71">
 <link rel="me" href="https://news.ycombinator.com/user?id=Abhra71">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://abhra71.github.io/#website",
+      "url": "https://abhra71.github.io/",
+      "name": "Abhra71",
+      "alternateName": "Abhra Chakraborty",
+      "publisher": { "@id": "https://abhra71.github.io/#person" }
+    },
+    {
       "@type": "ProfilePage",
       "@id": "https://abhra71.github.io/#page",
       "url": "https://abhra71.github.io/",
       "name": "Abhra Chakraborty (Abhra71)",
-      "mainEntity": { "@id": "https://abhra71.github.io/#person" }
+      "isPartOf": { "@id": "https://abhra71.github.io/#website" },
+      "mainEntity": { "@id": "https://abhra71.github.io/#person" },
+      "dateModified": "2026-11-24"
     },
     {
       "@type": "Person",
@@ -34,26 +52,35 @@
       "name": "Abhra Chakraborty",
       "alternateName": "Abhra71",
       "url": "https://abhra71.github.io/",
-      "description": "Teenage indie developer from India. Builds free, open-source apps; maker of Knightwise.",
+      "image": "https://abhra71.github.io/media/og.jpg",
+      "description": "Teenage indie developer from India. Builds free, open-source apps; maker of Knightwise, a personal chess coach on the Microsoft Store.",
       "jobTitle": "Indie developer",
       "nationality": { "@type": "Country", "name": "India" },
-      "knowsAbout": ["Software development", "Python", "Java", "Chess", "Robotics", "Cybersecurity"],
-      "email": "mailto:knightwise.app@gmail.com",
+      "knowsAbout": ["Software development", "Python", "Java", "Chess engines", "Voice interfaces", "Robotics", "Cybersecurity"],
       "sameAs": [
         "https://github.com/Abhra71",
         "https://x.com/Abhra71",
         "https://news.ycombinator.com/user?id=Abhra71"
-      ]
+      ],
+      "owns": { "@id": "https://abhra71.github.io/ChessCoach/#app" }
     },
     {
       "@type": "SoftwareApplication",
       "@id": "https://abhra71.github.io/ChessCoach/#app",
       "name": "Knightwise",
+      "alternateName": "Knightwise Chess Coach",
+      "description": "A free, open-source personal chess coach for chess.com players. It finds the habit that loses you games, trains you on your own positions, and lets you rematch the exact move where it went wrong. Off in every live game.",
       "url": "https://abhra71.github.io/ChessCoach/",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Windows 10, Windows 11",
+      "softwareVersion": "1.1",
+      "datePublished": "2026-10-26",
       "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "downloadUrl": "https://apps.microsoft.com/detail/9NKLGS6K72J2",
+      "image": "https://abhra71.github.io/media/kw-review.webp",
       "author": { "@id": "https://abhra71.github.io/#person" },
+      "creator": { "@id": "https://abhra71.github.io/#person" },
       "sameAs": [
         "https://apps.microsoft.com/detail/9NKLGS6K72J2",
         "https://github.com/Abhra71/ChessCoach",
@@ -61,120 +88,364 @@
       ]
     },
     {
-      "@type": "WebApplication",
-      "name": "Study Tracker",
-      "url": "https://abhra71.github.io/-study-tracker/",
-      "applicationCategory": "EducationalApplication",
-      "author": { "@id": "https://abhra71.github.io/#person" }
-    },
-    {
-      "@type": "WebApplication",
-      "name": "Focus Timer",
-      "url": "https://abhra71.github.io/focus-timer/",
-      "applicationCategory": "ProductivityApplication",
+      "@type": "SoftwareSourceCode",
+      "name": "Jarvis",
+      "description": "A voice-first desktop assistant for Windows (archived).",
+      "codeRepository": "https://github.com/Abhra71/Jarvis",
       "author": { "@id": "https://abhra71.github.io/#person" }
     }
   ]
 }
 </script>
 <style>
-  :root {
-    --bg: #262421; --surface: #312e2b; --raised: #3d3a36; --line: #3a3733;
-    --text: #f3f1ee; --muted: #b0aba4; --faint: #9c968e;
-    --accent: #81b64c; --on-accent: #13210a; --gold: #e3b45b;
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
-    font: 17px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
-  a { color: var(--accent); }
-  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
-  header { padding: 72px 0 40px; }
-  h1 { font: 600 44px/1.15 Georgia, "Times New Roman", serif; margin: 0 0 8px; }
-  .handle { color: var(--faint); font-size: 18px; margin: 0 0 18px; }
-  .lead { color: var(--muted); font-size: 19px; max-width: 640px; margin: 0 0 24px; }
-  .links { display: flex; flex-wrap: wrap; gap: 10px; }
-  .links a { text-decoration: none; color: var(--text); background: var(--surface); border: 1px solid var(--line);
-    padding: 8px 14px; border-radius: 999px; font-size: 15px; }
-  .links a:hover { background: var(--raised); }
-  h2 { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--faint); margin: 48px 0 16px; }
-  .feature { display: grid; grid-template-columns: 96px 1fr; gap: 22px; background: var(--surface);
-    border: 1px solid var(--line); border-radius: 14px; padding: 24px; }
-  .feature img { width: 96px; height: 96px; border-radius: 18px; }
-  .feature h3 { margin: 0 0 4px; font-size: 24px; }
-  .tag { color: var(--gold); font-size: 14px; margin: 0 0 10px; }
-  .feature p { margin: 0 0 14px; color: var(--muted); }
-  .btn { display: inline-block; background: var(--accent); color: var(--on-accent); font-weight: 600;
-    text-decoration: none; padding: 9px 16px; border-radius: 8px; margin: 0 8px 8px 0; }
-  .btn.ghost { background: var(--raised); color: var(--text); }
-  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
-  .card h3 { margin: 0 0 6px; font-size: 18px; }
-  .card p { margin: 0 0 10px; color: var(--muted); font-size: 15px; }
-  .card a { font-size: 15px; margin-right: 12px; }
-  .about p { color: var(--muted); max-width: 680px; }
-  footer { margin-top: 56px; padding: 26px 0 40px; border-top: 1px solid var(--line); color: var(--faint); font-size: 14px; }
-  @media (max-width: 560px) {
-    header { padding-top: 44px; } h1 { font-size: 34px; }
-    .feature { grid-template-columns: 1fr; } .feature img { width: 72px; height: 72px; }
-  }
+/* Layout: one left-aligned reading column; the hero pairs the name with a real build log,
+   and every project gets a case study with a spec sheet beside it. */
+:root {
+  --paper: #f4f5f7; --surface: #ffffff; --sunk: #eceef2; --ink: #11151f; --muted: #545c6d; --faint: #7a8293;
+  --line: #dde1e8; --accent: #2b44d6; --accent-ink: #ffffff; --accent-soft: #e6e9fb;
+  --live: #1d7f4f; --live-soft: #e1f3ea; --parked: #8a6418; --parked-soft: #f6eedb;
+  --shadow: 0 1px 2px rgba(17,21,31,.06), 0 8px 28px rgba(17,21,31,.07);
+  --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body: "Inter", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0d1018; --surface: #151a26; --sunk: #111521; --ink: #e9ecf2; --muted: #a1a9ba; --faint: #7c8598;
+  --line: #262d3c; --accent: #8c9cff; --accent-ink: #0d1018; --accent-soft: #1c2240;
+  --live: #4cc38a; --live-soft: #12291f; --parked: #e0b45a; --parked-soft: #2a2312;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35); color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --paper: #0d1018; --surface: #151a26; --sunk: #111521; --ink: #e9ecf2; --muted: #a1a9ba; --faint: #7c8598;
+  --line: #262d3c; --accent: #8c9cff; --accent-ink: #0d1018; --accent-soft: #1c2240;
+  --live: #4cc38a; --live-soft: #12291f; --parked: #e0b45a; --parked-soft: #2a2312;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 10px 30px rgba(0,0,0,.35); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; animation: none !important; } }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 17px/1.65 var(--body);
+  -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; display: block; }
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(20px, env(safe-area-inset-left, 0px)); padding-right: max(20px, env(safe-area-inset-right, 0px)); }
+.mono { font-family: var(--mono); font-size: 13px; letter-spacing: .01em; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; letter-spacing: -.02em; }
+
+/* top bar */
+.top { padding-block: 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.mark { font: 700 18px/1 var(--display); color: var(--ink); text-decoration: none; display: inline-flex; gap: 10px; align-items: center; }
+.mark b { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px; background: var(--ink); color: var(--paper); font-size: 15px; }
+.top nav { display: flex; gap: 22px; flex-wrap: wrap; }
+.top nav a { color: var(--muted); text-decoration: none; font-size: 15px; }
+.top nav a:hover { color: var(--ink); }
+
+/* hero */
+.hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 56px; align-items: center; padding-block: 64px 72px; }
+.eyebrow { color: var(--faint); margin: 0 0 18px; display: flex; gap: 10px; align-items: baseline; }
+.eyebrow .dot { flex: none; transform: translateY(-1px); }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--live); box-shadow: 0 0 0 4px var(--live-soft); }
+.hero h1 { font-size: clamp(46px, 7.4vw, 92px); line-height: .95; font-weight: 800; }
+.hero h1 span { color: var(--faint); font-weight: 500; }
+.thesis { font-size: clamp(19px, 2vw, 22px); color: var(--muted); max-width: 30ch; margin: 22px 0 30px; line-height: 1.45; }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 18px; border-radius: 10px; font-weight: 600; font-size: 15px;
+  text-decoration: none; border: 1px solid var(--line); color: var(--ink); background: var(--surface); transition: transform .15s, border-color .15s; }
+.btn:hover { transform: translateY(-1px); border-color: var(--faint); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.btn svg { width: 17px; height: 17px; }
+
+/* build log */
+.log { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); overflow: hidden; }
+.log header { display: flex; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--line); color: var(--faint); }
+.log ol { list-style: none; margin: 0; padding: 8px 0; }
+.log li { display: grid; grid-template-columns: 92px 1fr; gap: 14px; padding: 9px 18px; font-size: 15px; line-height: 1.45; }
+.log li time { color: var(--faint); padding-top: 2px; }
+.log li b { font-weight: 600; }
+.log li.now { background: var(--accent-soft); }
+.log li.now time { color: var(--accent); }
+
+/* sections */
+section { padding-block: 72px; border-top: 1px solid var(--line); }
+.section-head { display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
+.section-head h2 { font-size: clamp(30px, 3.6vw, 44px); line-height: 1.05; }
+.section-head p { margin: 0; color: var(--muted); max-width: 46ch; }
+.label { color: var(--faint); text-transform: uppercase; letter-spacing: .1em; font: 500 12px/1 var(--mono); margin: 0 0 12px; }
+
+/* case study */
+.case { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 40px; align-items: start; }
+.case + .case { margin-top: 88px; }
+.case h3 { font-size: clamp(30px, 3.4vw, 40px); display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.case h3 img { width: 44px; height: 44px; border-radius: 11px; }
+.pill { font: 500 12px/1 var(--mono); padding: 6px 10px; border-radius: 999px; letter-spacing: .02em; }
+.pill.live { color: var(--live); background: var(--live-soft); }
+.pill.parked { color: var(--parked); background: var(--parked-soft); }
+.lede { font-size: 19px; color: var(--muted); margin: 14px 0 26px; max-width: 60ch; }
+.shot { border-radius: 14px; overflow: hidden; border: 1px solid var(--line); box-shadow: var(--shadow); background: var(--sunk); }
+.shot img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; object-position: top left; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin: 16px 0 0; }
+.tabs button { font: 500 14px/1 var(--body); color: var(--muted); background: transparent; border: 1px solid var(--line);
+  padding: 9px 13px; border-radius: 999px; cursor: pointer; }
+.tabs button[aria-pressed="true"] { color: var(--ink); border-color: var(--ink); }
+.caption { color: var(--faint); font-size: 14px; margin: 12px 0 0; min-height: 1.5em; }
+.points { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 32px; margin: 34px 0 0; padding: 0; list-style: none; }
+.points li { min-width: 0; }
+.points b { display: block; font-family: var(--display); font-size: 19px; margin-bottom: 4px; letter-spacing: -.01em; }
+.points span { color: var(--muted); font-size: 16px; }
+
+/* spec sheet */
+.spec { position: sticky; top: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 6px 20px 20px; }
+.spec dl { margin: 0; }
+.spec div.row { display: grid; grid-template-columns: 96px 1fr; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 15px; }
+.spec dt { color: var(--faint); font: 400 13px/1.6 var(--mono); }
+.spec dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.spec .links { display: grid; gap: 8px; margin-top: 18px; }
+.spec .links a { display: flex; justify-content: space-between; align-items: center; text-decoration: none; color: var(--ink);
+  padding: 10px 12px; border: 1px solid var(--line); border-radius: 9px; font-size: 15px; font-weight: 500; }
+.spec .links a:hover { border-color: var(--faint); }
+.spec .links a.main { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.spec .links small { color: inherit; opacity: .7; font: 400 12px var(--mono); }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips span { font: 400 12px/1 var(--mono); padding: 6px 8px; border-radius: 6px; background: var(--sunk); color: var(--muted); }
+
+/* smaller project visuals */
+.visual { border-radius: 14px; border: 1px solid var(--line); background: var(--sunk); aspect-ratio: 16 / 9; display: grid; place-items: center; overflow: hidden; }
+.terminal { width: min(86%, 470px); background: #0b0e14; color: #d6dae3; border-radius: 12px; padding: 18px 20px; font: 400 13.5px/1.75 var(--mono); box-shadow: 0 20px 60px rgba(0,0,0,.35); }
+.terminal .you { color: #8c9cff; }
+.terminal .j { color: #6ad3a0; }
+.terminal .dim { color: #6b7385; }
+
+/* principles + contact */
+.principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; margin: 0; padding: 0; list-style: none; }
+.principles h3 { font-size: 22px; margin-bottom: 8px; }
+.principles p { margin: 0; color: var(--muted); }
+.contact { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; align-items: start; }
+.contact h2 { font-size: clamp(34px, 4.6vw, 56px); line-height: 1; }
+.contact p { color: var(--muted); max-width: 44ch; }
+.elsewhere { display: grid; gap: 0; border-top: 1px solid var(--line); }
+.elsewhere a { display: grid; grid-template-columns: 140px 1fr auto; gap: 12px; align-items: center; padding: 16px 0;
+  border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); }
+.elsewhere a:hover .go { transform: translateX(3px); }
+.elsewhere .k { color: var(--faint); font: 400 13px var(--mono); }
+.elsewhere .v { font-weight: 500; min-width: 0; overflow-wrap: anywhere; }
+.elsewhere .go { color: var(--faint); transition: transform .15s; }
+.copy { font: 500 13px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+footer { padding-block: 34px 48px; color: var(--faint); font-size: 14px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+@media (max-width: 900px) {
+  .hero, .case, .contact { grid-template-columns: minmax(0, 1fr); }
+  .hero { gap: 40px; padding-block: 36px 56px; }
+  .spec { position: static; }
+  .principles { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+}
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  .top nav { display: none; }
+  .points { grid-template-columns: minmax(0, 1fr); }
+  .log li { grid-template-columns: 78px 1fr; gap: 10px; padding-inline: 14px; }
+  .elsewhere a { grid-template-columns: 96px 1fr auto; }
+  section { padding-block: 56px; }
+}
 </style>
 </head>
 <body>
-<header><div class="wrap">
-  <h1>Abhra Chakraborty</h1>
-  <p class="handle">@Abhra71 · indie developer from India</p>
-  <p class="lead">I'm a teenager who builds free, open-source apps for problems I actually have, and I'm learning in public.</p>
-  <nav class="links" aria-label="Find me">
-    <a href="https://github.com/Abhra71" rel="me">GitHub</a>
-    <a href="https://x.com/Abhra71" rel="me">X</a>
-    <a href="https://news.ycombinator.com/user?id=Abhra71" rel="me">Hacker News</a>
-    <a href="mailto:knightwise.app@gmail.com">Email</a>
-  </nav>
-</div></header>
 
-<main class="wrap">
-  <h2>Main project</h2>
-  <article class="feature">
-    <img src="media/knightwise.png" alt="Knightwise logo">
-    <div>
-      <h3>Knightwise</h3>
-      <p class="tag">Free on the Microsoft Store · open source · 2026</p>
-      <p>A personal chess coach for chess.com players. It checks every move of your games with Stockfish, finds the habit
-        that keeps losing you games, trains you on your own positions, and lets you rematch the exact move where it went
-        wrong. Two coaches explain it in plain words, even by voice. Strictly off during live games.</p>
-      <a class="btn" href="https://www.microsoft.com/store/apps/9NKLGS6K72J2?cid=portfolio">Get it free</a>
-      <a class="btn ghost" href="https://abhra71.github.io/ChessCoach/">Website</a>
-      <a class="btn ghost" href="https://github.com/Abhra71/ChessCoach">Code</a>
-      <a class="btn ghost" href="https://www.instagram.com/knightwise.chess/">Instagram</a>
-    </div>
-  </article>
-
-  <h2>Smaller projects</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Study Tracker</h3>
-      <p>A web app to track Class 10 exam preparation, with an AI study coach.</p>
-      <a href="https://abhra71.github.io/-study-tracker/">Open</a><a href="https://github.com/Abhra71/-study-tracker">Code</a>
-    </div>
-    <div class="card">
-      <h3>Focus Timer</h3>
-      <p>A simple timer for focused study sessions.</p>
-      <a href="https://abhra71.github.io/focus-timer/">Open</a><a href="https://github.com/Abhra71/focus-timer">Code</a>
-    </div>
-    <div class="card">
-      <h3>Jarvis <span style="color:var(--faint);font-size:14px">(archived)</span></h3>
-      <p>A voice-controlled desktop assistant. Its ideas grew into Knightwise's voice coach.</p>
-      <a href="https://github.com/Abhra71/Jarvis">Code</a>
-    </div>
+<div class="wrap">
+  <div class="top">
+    <a class="mark" href="#top" aria-label="Abhra71 home"><b>A</b>Abhra71</a>
+    <nav aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#how">How I build</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </div>
 
-  <section class="about">
-    <h2>About</h2>
-    <p>I know Java and I'm heading towards robotics and C++. Everything I make is free, and the code is open so anyone can
-      check it or learn from it. Each app has its own page and accounts, and they all lead back here.</p>
-  </section>
+  <header class="hero" id="top">
+    <div>
+      <p class="eyebrow mono"><span class="dot" aria-hidden="true"></span><span>Indie developer · India · building in public</span></p>
+      <h1>Abhra<br>Chakraborty <span>/&nbsp;Abhra71</span></h1>
+      <p class="thesis">I build free, open-source apps for problems I actually have, and ship them to real people.</p>
+      <div class="actions">
+        <a class="btn primary" href="#knightwise">See Knightwise</a>
+        <a class="btn" href="https://github.com/Abhra71" rel="me">
+          <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <aside class="log" aria-label="Build log">
+      <header class="mono"><span>build log</span><span>2026</span></header>
+      <ol class="mono">
+        <li class="now"><time datetime="2026-11-20">20 Nov</time><span><b>Knightwise 1.1</b> live on the Microsoft Store, certified in about 45 minutes</span></li>
+        <li><time datetime="2026-10-26">26 Oct</time><span><b>Knightwise 1.0</b> public on the Microsoft Store</span></li>
+        <li><time datetime="2026-10-10">10 Oct</time><span>First commit of Knightwise; Jarvis archived</span></li>
+        <li><time datetime="2026-09-26">26 Sep</time><span>Started <b>Jarvis</b>, a voice assistant for Windows</span></li>
+      </ol>
+    </aside>
+  </header>
+</div>
+
+<main>
+<section id="work">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Work</h2>
+      <p>Each one started as something I needed myself.</p>
+    </div>
+
+    <!-- Knightwise -->
+    <article class="case" id="knightwise">
+      <div>
+        <p class="label">Main project</p>
+        <h3><img src="media/knightwise.png" alt="">Knightwise <span class="pill live">Live · v1.1</span></h3>
+        <p class="lede">A personal chess coach for chess.com players. It checks every move of your games with Stockfish,
+          finds the habit that keeps losing you games, trains you on your own positions, and lets you rematch the exact
+          move where it went wrong.</p>
+
+        <figure class="shot" style="margin:0">
+          <img id="kw-img" src="media/kw-review.webp" width="1400" height="788" alt="Knightwise game review: the board shows the move you played, the better move and the opponent's best reply as arrows">
+        </figure>
+        <div class="tabs" role="group" aria-label="Knightwise screenshots">
+          <button type="button" aria-pressed="true" data-src="media/kw-review.webp" data-cap="Game review: your move, the better move and their best reply, drawn on the board.">Review</button>
+          <button type="button" aria-pressed="false" data-src="media/kw-on-chesscom.webp" data-cap="On chess.com itself: the coach sits beside the board in puzzles and lessons, never in live games.">On chess.com</button>
+          <button type="button" aria-pressed="false" data-src="media/kw-practice.webp" data-cap="Practice: positions from your own games, chosen for the habit you most need to fix.">Practice</button>
+          <button type="button" aria-pressed="false" data-src="media/kw-openings.webp" data-cap="Openings: where your openings go wrong, move by move.">Openings</button>
+          <button type="button" aria-pressed="false" data-src="media/kw-progress.webp" data-cap="Progress: how your habits change over time.">Progress</button>
+        </div>
+        <p class="caption" id="kw-cap" aria-live="polite">Game review: your move, the better move and their best reply, drawn on the board.</p>
+
+        <ul class="points">
+          <li><b>Finds your habit</b><span>Reads your chess.com games and names the one pattern that costs you the most.</span></li>
+          <li><b>Rematch the moment</b><span>Replay the exact position where a game slipped and try the better move.</span></li>
+          <li><b>Two coaches, one voice each</b><span>Maya and Viktor explain in plain words, out loud if you want.</span></li>
+          <li><b>Fair play by design</b><span>Completely off in any live game against a person.</span></li>
+        </ul>
+      </div>
+
+      <aside class="spec" aria-label="Knightwise details">
+        <dl>
+          <div class="row"><dt>Status</dt><dd>Live, free</dd></div>
+          <div class="row"><dt>Platform</dt><dd>Windows 10/11 app + Chrome/Edge extension</dd></div>
+          <div class="row"><dt>Started</dt><dd>10 Oct 2026</dd></div>
+          <div class="row"><dt>Work</dt><dd>424 commits, 290 automated tests</dd></div>
+          <div class="row"><dt>Built with</dt><dd><div class="chips"><span>Python</span><span>Stockfish</span><span>Maia</span><span>MV3 extension</span><span>Kokoro voice</span></div></dd></div>
+          <div class="row"><dt>License</dt><dd>GPL-3.0</dd></div>
+        </dl>
+        <div class="links">
+          <a class="main" href="https://www.microsoft.com/store/apps/9NKLGS6K72J2?cid=portfolio">Get it free <small>Microsoft Store</small></a>
+          <a href="https://abhra71.github.io/ChessCoach/">Website <small>↗</small></a>
+          <a href="https://github.com/Abhra71/ChessCoach">Source code <small data-stars="Abhra71/ChessCoach">GitHub</small></a>
+          <a href="https://www.instagram.com/knightwise.chess/">Instagram <small>@knightwise.chess</small></a>
+        </div>
+      </aside>
+    </article>
+
+    <!-- Jarvis -->
+    <article class="case" id="jarvis">
+      <div>
+        <h3>Jarvis <span class="pill parked">Archived</span></h3>
+        <p class="lede">A voice assistant for Windows that runs quietly from the system tray. Say "Hi Jarvis" and talk:
+          it opens apps and sites, controls tabs, windows, files and media, and answers questions. Its voice work lives
+          on in Knightwise's coaches.</p>
+        <div class="visual" role="img" aria-label="Example Jarvis conversation">
+          <div class="terminal">
+            <div><span class="you">you&nbsp;&nbsp;</span> Hi Jarvis</div>
+            <div><span class="j">jarvis</span> <span class="dim">(beep)</span></div>
+            <div><span class="you">you&nbsp;&nbsp;</span> open YouTube in my work profile</div>
+            <div><span class="j">jarvis</span> Opening YouTube in Chrome, work profile.</div>
+            <div><span class="you">you&nbsp;&nbsp;</span> set a timer for 10 minutes</div>
+            <div><span class="j">jarvis</span> Timer set. <span class="dim">(works offline)</span></div>
+          </div>
+        </div>
+        <ul class="points">
+          <li><b>Simple commands offline</b><span>Volume, timers, opening apps: instant, no internet needed.</span></li>
+          <li><b>Understood ~90% of real sentences</b><span>On a test set of my own speech, up from ~35%.</span></li>
+          <li><b>Safe by design</b><span>Asks before Send, Buy or Delete-type clicks; deleting files is impossible.</span></li>
+          <li><b>356 tests</b><span>Parked in a stable, working state.</span></li>
+        </ul>
+      </div>
+      <aside class="spec" aria-label="Jarvis details">
+        <dl>
+          <div class="row"><dt>Status</dt><dd>Archived 10 Oct 2026</dd></div>
+          <div class="row"><dt>Platform</dt><dd>Windows, tray app</dd></div>
+          <div class="row"><dt>Started</dt><dd>26 Sep 2026</dd></div>
+          <div class="row"><dt>Built with</dt><dd><div class="chips"><span>Python</span><span>Whisper</span><span>Gemini</span></div></dd></div>
+        </dl>
+        <div class="links">
+          <a href="https://github.com/Abhra71/Jarvis">Source code <small data-stars="Abhra71/Jarvis">GitHub</small></a>
+        </div>
+      </aside>
+    </article>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="section-head"><h2>How I build</h2></div>
+    <ul class="principles">
+      <li><h3>Free, for good</h3><p>Every app is free to use. No ads, no paywalls inside the apps.</p></li>
+      <li><h3>Open code</h3><p>The source is public, so anyone can check what an app does or learn from it.</p></li>
+      <li><h3>Real problems first</h3><p>I start from something I need myself, then test it on real use, not demos.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <div>
+      <h2>Say hello.</h2>
+      <p>Questions about an app, an idea, or want to feature Knightwise? Write to me. I'm a student, so replies can take a day or two.</p>
+      <p class="mono" style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:22px">
+        <span id="mail">knightwise.app@gmail.com</span>
+        <button class="copy" type="button" id="copy-mail">Copy</button>
+      </p>
+    </div>
+    <nav class="elsewhere" aria-label="Elsewhere">
+      <a href="https://github.com/Abhra71" rel="me"><span class="k">GitHub</span><span class="v">@Abhra71</span><span class="go">→</span></a>
+      <a href="https://x.com/Abhra71" rel="me"><span class="k">X</span><span class="v">@Abhra71</span><span class="go">→</span></a>
+      <a href="https://news.ycombinator.com/user?id=Abhra71" rel="me"><span class="k">Hacker News</span><span class="v">Abhra71</span><span class="go">→</span></a>
+      <a href="https://www.instagram.com/knightwise.chess/"><span class="k">Knightwise</span><span class="v">Instagram @knightwise.chess</span><span class="go">→</span></a>
+    </nav>
+  </div>
+</section>
 </main>
 
-<footer><div class="wrap">© 2026 Abhra Chakraborty (Abhra71)</div></footer>
+<div class="wrap">
+  <footer>
+    <span>© 2026 Abhra Chakraborty (Abhra71)</span>
+    <span>Knightwise is independent and not connected with chess.com.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  // Screenshot tabs for Knightwise
+  var img = document.getElementById('kw-img'), cap = document.getElementById('kw-cap');
+  document.querySelectorAll('.tabs button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      document.querySelectorAll('.tabs button').forEach(function (x) { x.setAttribute('aria-pressed', 'false'); });
+      b.setAttribute('aria-pressed', 'true');
+      img.src = b.dataset.src; img.alt = b.textContent + ' screen of Knightwise'; cap.textContent = b.dataset.cap;
+    });
+  });
+  // Copy email
+  var btn = document.getElementById('copy-mail');
+  btn.addEventListener('click', function () {
+    var t = document.getElementById('mail').textContent;
+    function done() { btn.textContent = 'Copied'; setTimeout(function () { btn.textContent = 'Copy'; }, 1600); }
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, select); else select();
+    function select() { var r = document.createRange(); r.selectNodeContents(document.getElementById('mail'));
+      var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+  });
+  // Live GitHub star counts (falls back to "GitHub" text)
+  document.querySelectorAll('[data-stars]').forEach(function (el) {
+    fetch('https://api.github.com/repos/' + el.dataset.stars).then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) { if (d && d.stargazers_count > 0) el.textContent = '★ ' + d.stargazers_count; })
+      .catch(function () {});
+  });
+})();
+</script>
 </body>
 </html>
