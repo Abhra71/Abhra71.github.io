@@ -88,6 +88,26 @@
       ]
     },
     {
+      "@type": "WebApplication",
+      "@id": "https://abhra71.github.io/-study-tracker/#app",
+      "name": "Study Tracker",
+      "description": "A web app for ICSE Class 10 exam preparation with revision dates, streaks, study groups and an AI study mentor.",
+      "url": "https://abhra71.github.io/-study-tracker/",
+      "applicationCategory": "EducationalApplication",
+      "author": { "@id": "https://abhra71.github.io/#person" },
+      "sameAs": ["https://github.com/Abhra71/-study-tracker"]
+    },
+    {
+      "@type": "WebApplication",
+      "@id": "https://abhra71.github.io/focus-timer/#app",
+      "name": "FocusTrap",
+      "description": "A focus timer with Pomodoro and ultradian sprints, a distraction counter and study-hour heatmaps.",
+      "url": "https://abhra71.github.io/focus-timer/",
+      "applicationCategory": "ProductivityApplication",
+      "author": { "@id": "https://abhra71.github.io/#person" },
+      "sameAs": ["https://github.com/Abhra71/focus-timer"]
+    },
+    {
       "@type": "SoftwareSourceCode",
       "name": "Jarvis",
       "description": "A voice-first desktop assistant for Windows (archived).",
@@ -216,6 +236,16 @@ section { padding-block: 72px; border-top: 1px solid var(--line); }
 .terminal .j { color: #6ad3a0; }
 .terminal .dim { color: #6b7385; }
 
+/* early work */
+.early { margin-top: 88px; padding-top: 40px; border-top: 1px dashed var(--line); }
+.early-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.mini { min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; display: flex; flex-direction: column; }
+.mini h3 { font-size: 22px; margin-bottom: 8px; }
+.mini p { margin: 0 0 12px; color: var(--muted); font-size: 16px; }
+.mini .meta { color: var(--faint); margin-top: auto; }
+.mini-links { display: flex; gap: 18px; margin: 0 !important; }
+.mini-links a { font-weight: 600; font-size: 15px; }
+
 /* principles + contact */
 .principles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px; margin: 0; padding: 0; list-style: none; }
 .principles h3 { font-size: 22px; margin-bottom: 8px; }
@@ -242,7 +272,7 @@ footer { padding-block: 34px 48px; color: var(--faint); font-size: 14px; border-
 @media (max-width: 560px) {
   body { font-size: 16px; }
   .top nav { display: none; }
-  .points { grid-template-columns: minmax(0, 1fr); }
+  .points, .early-grid { grid-template-columns: minmax(0, 1fr); }
   .log li { grid-template-columns: 78px 1fr; gap: 10px; padding-inline: 14px; }
   .elsewhere a { grid-template-columns: 96px 1fr auto; }
   section { padding-block: 56px; }
@@ -282,6 +312,8 @@ footer { padding-block: 34px 48px; color: var(--faint); font-size: 14px; border-
         <li><time datetime="2026-10-26">26 Oct</time><span><b>Knightwise 1.0</b> public on the Microsoft Store</span></li>
         <li><time datetime="2026-10-10">10 Oct</time><span>First commit of Knightwise; Jarvis archived</span></li>
         <li><time datetime="2026-09-26">26 Sep</time><span>Started <b>Jarvis</b>, a voice assistant for Windows</span></li>
+        <li><time datetime="2026-06-13">13 Jun</time><span>Built <b>FocusTrap</b>, a focus timer</span></li>
+        <li><time datetime="2026-02-20">20 Feb</time><span>First commit of <b>Study Tracker</b>, for my Class 10 exams</span></li>
       </ol>
     </aside>
   </header>
@@ -292,7 +324,7 @@ footer { padding-block: 34px 48px; color: var(--faint); font-size: 14px; border-
   <div class="wrap">
     <div class="section-head">
       <h2>Work</h2>
-      <p>Each one started as something I needed myself.</p>
+      <p>Each one started as something I needed myself. Newest first.</p>
     </div>
 
     <!-- Knightwise -->
@@ -378,6 +410,24 @@ footer { padding-block: 34px 48px; color: var(--faint); font-size: 14px; border-
         </div>
       </aside>
     </article>
+    <!-- Early work -->
+    <div class="early" id="early-work">
+      <p class="label">Early work · Class 10</p>
+      <div class="early-grid">
+        <article class="mini">
+          <h3>Study Tracker</h3>
+          <p>A web app for my ICSE Class 10 preparation: revision dates for every chapter, streaks, study groups with a leaderboard, and an AI study mentor.</p>
+          <p class="mono meta">Feb 2026 · 58 commits · JavaScript</p>
+          <p class="mini-links"><a href="https://abhra71.github.io/-study-tracker/">Open</a><a href="https://github.com/Abhra71/-study-tracker">Code</a></p>
+        </article>
+        <article class="mini">
+          <h3>FocusTrap</h3>
+          <p>A focus timer with Pomodoro and longer sprints, a tap-when-distracted counter, study-hour heatmaps, and breaks that unlock after push-ups.</p>
+          <p class="mono meta">Jun 2026 · HTML and JavaScript</p>
+          <p class="mini-links"><a href="https://abhra71.github.io/focus-timer/">Open</a><a href="https://github.com/Abhra71/focus-timer">Code</a></p>
+        </article>
+      </div>
+    </div>
   </div>
 </section>
 
